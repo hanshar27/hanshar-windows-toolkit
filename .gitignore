@@ -16,6 +16,7 @@ htmlcov/
 /build/
 /dist/
 /installer/*.exe
+!/installer/HansharWindowsToolkit-Setup.exe
 /*.spec
 
 # Packaged releases

@@ -50,8 +50,8 @@ The build output is generated in the `dist` directory as `HansharWindowsToolkit.
 .\.venv\Scripts\python.exe build_installer.py
 ```
 
-This script checks for Inno Setup (`iscc.exe`) and writes `HansharWindowsToolkit-Setup.exe` into `installer/` when available.
-The installer build requires Inno Setup 6 or 7. Generated EXE, installer, temporary build files, local reports, and logs are intentionally excluded from source control; publish release binaries separately as GitHub Release assets.
+This script checks for Inno Setup (`iscc.exe`) and writes `HansharWindowsToolkit-Setup.exe` into `installer/` when available. The installer is included at [`installer/HansharWindowsToolkit-Setup.exe`](./installer/HansharWindowsToolkit-Setup.exe) for direct download from the repository.
+The installer build requires Inno Setup 6 or 7. Other generated EXEs, temporary build files, local reports, and logs are excluded from source control.
 
 ## Dependency stack
 

@@ -1,0 +1,37 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and coverage output
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# PyInstaller and generated builds
+/build/
+/dist/
+/installer/*.exe
+/*.spec
+
+# Packaged releases
+/release/
+
+# Local application data and generated reports
+/logs/
+/reports/
+/exports/
+/app_state.json
+*.log
+*.log.*
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

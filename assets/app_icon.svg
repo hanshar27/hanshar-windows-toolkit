@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Hanshar Windows Toolkit icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="44" fill="url(#bg)"/>
+  <rect x="32" y="32" width="192" height="192" rx="28" fill="#0b1220" opacity="0.75"/>
+  <path d="M78 162 L128 84 L178 162" fill="none" stroke="url(#panel)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M96 150 L128 108 L160 150" fill="none" stroke="#e2e8f0" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="74" y="172" width="108" height="18" rx="9" fill="#e2e8f0" opacity="0.9"/>
+</svg>

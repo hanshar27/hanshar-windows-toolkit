@@ -1,0 +1,8 @@
+{
+  "app_name": "Hanshar Windows Toolkit",
+  "app_version": "1.0.0",
+  "blur_intensity": 55,
+  "log_directory": "logs",
+  "startup_on_login": false,
+  "require_confirmation": true
+}
